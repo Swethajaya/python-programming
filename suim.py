@@ -7,8 +7,6 @@ x=[]
 for i in n:
   l.append(i)
   l.sort(reverse=True)
-print(l)
-print(sd)
 ll=len(l)-1
 for i in sd:
   x.append(l[ll-i])
